@@ -28,6 +28,6 @@ app.get('/about', function(req, res) { //configurando una peticion get cuando el
 //     res.send('hola data');
 // })
 
-app.listen(port, () => {
-    console.log('/// Escuchando peticiones en el puerto... ///')
+app.listen(3000, () => {
+    console.log(`/// Escuchando peticiones en el puerto ${port}... ///`)
 })
